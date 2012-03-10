@@ -1,6 +1,8 @@
 # Traffic Jam
 
-Traffic Jam is a simple web service for demonstrating slow networks. It can be used for demonstrating slow network traffic and explaining asynchrnous coding.
+[![Build Status](https://secure.travis-ci.org/shapeshed/trafficjam.png)](http://travis-ci.org/shapeshed/trafficjam)
+
+Traffic Jam is a simple web service for demonstrating slow networks where you want to actually make a network call rather than mock it in. 
 
 Traffic Jam is hosted on Heroku. 
 
