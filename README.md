@@ -13,6 +13,17 @@ Traffic Jam expects a query string of delay to indicate how long it should delay
 
     curl -i "http://trafficjamapp.herokuapp.com/?delay=5000"
 
+After the delay you'll get a response
+
+    HTTP/1.1 200 OK
+    Content-Type: text/plain
+    Content-Length: 43
+    Connection: keep-alive
+
+    Response from Traffic Jam with 5000ms delay
+
+Note the response time isn't going to be exactly 5000 milliseconds but Traffic Jam will responsd after that amount of time. Networks, DNS lookups etc may make the response time longer.
+
 That's all it does. I told you it was simple. 
 
 
