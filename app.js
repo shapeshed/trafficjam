@@ -1,5 +1,6 @@
 var http = require('http');
-var url = require('url');
+  , url = require('url')  
+  , port = process.env.PORT || 3000;
 
 var server = http.createServer(function (request, response) {
   var queryData = url.parse(request.url, true).query;
@@ -13,4 +14,4 @@ var server = http.createServer(function (request, response) {
   }
 });
 
-server.listen(8000);
+server.listen(3000);
