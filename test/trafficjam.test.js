@@ -1,6 +1,6 @@
-var http = require('http')
-, assert = require('assert')
-, tokenator = require('../lib/trafficjam');
+var http = require('http'),
+    assert = require('assert'),
+    tokenator = require('../lib/trafficjam');
 
 describe('Making a get request', function(){
   describe('without a query string', function(){
